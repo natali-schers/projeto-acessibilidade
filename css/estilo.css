@@ -68,7 +68,7 @@ html {
 }
 
 #wcag {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 #wcag p {
@@ -76,6 +76,19 @@ html {
 }
 
 #wcag h1, h2 {
+  text-align: center;
+}
+
+#cadastro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cadastro h1{
   text-align: center;
 }
 
