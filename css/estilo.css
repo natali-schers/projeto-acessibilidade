@@ -1,0 +1,113 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: lightgray;
+  height: 75px;
+}
+
+.navbar-brand {
+  padding: 0 0 0 15px;
+}
+
+#focoimagem {
+  width: 100%;
+  height: 60vh;
+  background: url("../img/img5.png") top center;
+  background-size: cover;
+  position: relative;
+  top: 70px;
+}
+
+#focoimagem:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#focoimagem .focoimagem-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
+
+#focoimagem h1 {
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#focoimagem h2 {
+  color: #fff;
+}
+
+#acessibilidade {
+  margin-top: 100px;
+}
+
+#acessibilidade p {
+  text-align: justify;
+}
+
+#acessibilidade h1, h2 {
+  text-align: center;
+}
+
+#wcag {
+  margin-bottom: 50px;
+}
+
+#wcag p {
+  text-align: justify;
+}
+
+#wcag h1, h2 {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  padding-top: 25px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  #focoimagem {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+  padding: 0 0 5px 10px;
+}
+
+  #focoimagem {
+    height: 60vh;
+  }
+  #focoimagem h1 {
+    font-size: 27px;
+    line-height: 36px;
+  }
+  #focoimagem h2 {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
