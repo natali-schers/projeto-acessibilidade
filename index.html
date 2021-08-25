@@ -11,9 +11,9 @@
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
 	<!-- Identidade da Página -->
 	<title>Acessibilidade e WCAG</title>
@@ -31,7 +31,7 @@
 	      		<li class="nav-item active"><a class="nav-link" href="#">Home<span class="sr-only">(página atual)</span></a></li>
 	      		<li class="nav-item"><a class="nav-link" href="#acessibilidade">Acessibilidade</a></li>
 	     		<li class="nav-item"><a class="nav-link" href="#wcag">WCAG</a></li>
-	     		<li class="nav-item"><a class="nav-link" href="#contato">Entre em Contato</a></li>
+	     		<li class="nav-item"><a class="nav-link" href="#cadastro">Fazer cadastro</a></li>
 	    	</ul>
 	  	</div>
 	</nav>
@@ -44,7 +44,7 @@
    	</div>
    </section>
 
-  <!-- Conteúdo -->
+  	<!-- Conteúdo -->
   	<section id="acessibilidade">
   		<h1>Acessibilidade</h1>
 		<div class="container">
@@ -119,14 +119,27 @@
 			</div>
 		</div>
 	</section>
-	
-   <!-- Contato -->
-   Em desenvolvimento!
 
-   <!-- Footer -->
+	<hr>
+
+	<!-- Contato -->
+	<section id="cadastro" style="margin-bottom: 30px;">
+		<h1>Cadastro</h1>
+		<form action="dados.php" method="POST">
+			<p>Nome: <input type="text" name="nome" size="50"><br><br>
+				Sobrenome: <input type="text" name="sobrenome" size="50"><br><br>
+				Idade: <input type="int" name="idade" size="3"><br><br>
+				Email: <input type="text" name="email" size="50"><br><br>
+				Necessidade: <input type="text" name="necessidade" size="50"><br><br>
+				<input type="submit" name="Cadastrar">			
+		</form>
+	</section>
+
+	<!-- Footer -->
    <footer>
       <p>Desenvolvido por Natali Schers</p>
    </footer>
+
 
    <!-- JavaScript -->
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
