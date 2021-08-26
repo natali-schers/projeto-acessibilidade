@@ -4,7 +4,6 @@ html {
 
 .navbar {
   background-color: lightgray;
-  height: 75px;
 }
 
 .navbar-brand {
@@ -88,8 +87,12 @@ html {
   margin-right: auto;
 }
 
-#cadastro h1{
-  text-align: center;
+.btn-cadastro{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 footer {
