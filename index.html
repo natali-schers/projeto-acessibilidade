@@ -21,16 +21,19 @@
 </head>
 <body>
 	<!-- Navbar -->
+
 	<nav class="navbar fixed-top navbar-expand-lg navbar-light">
 	   <a class="navbar-brand" href="#"><img src="img/favicon.png" alt="Cursor de computador" width="50px"></a>
-	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação"><span class="navbar-toggler-icon"></span></button>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+	  		<span class="navbar-toggler-icon"></span>
+	  	</button>
 
 	 	<div class="collapse navbar-collapse justify-content-center" id="conteudoNavbarSuportado">
 	    	<ul class="navbar-nav">
-	      		<li class="nav-item active"><a class="nav-link" href="#">Home<span class="sr-only">(página atual)</span></a></li>
-	      		<li class="nav-item"><a class="nav-link" href="#acessibilidade">Acessibilidade</a></li>
+	      	<li class="nav-item active"><a class="nav-link" href="#">Home<span class="sr-only">(página atual)</span></a></li>
+	      	<li class="nav-item"><a class="nav-link" href="#acessibilidade">Acessibilidade</a></li>
 	     		<li class="nav-item"><a class="nav-link" href="#wcag">WCAG</a></li>
-	     		<li class="nav-item"><a class="nav-link" href="#cadastro">Entre em Contato</a></li>
+	     		<li class="nav-item"><a class="nav-link" href="#cadastro">Fazer cadastro</a></li>
 	    	</ul>
 	  	</div>
 	</nav>
@@ -42,6 +45,7 @@
       	<h2>Feito por Natali Schers</h2>
    	</div>
    </section>
+
 
   	<!-- Conteúdo -->
   	<section id="acessibilidade">
@@ -91,7 +95,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
-					<h2>Princípios do WCAG::</h2>
+					<h2>Princípios do WCAG:</h2>
 					<ol>
 						<li><p>- Perceptível: estima que os conteúdos possuam legendas, uma descrição alternativa ou sejam apresentados em mais de um formato de mídia para que os leitores de tela não encontrem dificuldades em interpretá-lo.</p></li>
 						<li><p>- Operável: preza que o site possa ser acessado sem dificuldades, que a programação esteja ajustada para permitir que a navegação seja feita pelo teclado e que a página esteja equilibrada (sem muitos anúncios e pop-ups, sem excesso de cores, muita iluminação, entre outros).</p></li>
@@ -124,13 +128,15 @@
 	<!-- Contato -->
 	<section id="cadastro">
 		<h1>Cadastro</h1>
-		<form id="cadastroform" action="dados.php" method="POST">
+		<form action="dados.php" method="POST">
 			<p><input type="text" name="nome" size="50" placeholder="Nome"><br><br>
 				<input type="text" name="sobrenome" size="50" placeholder="Sobrenome"><br><br>
 				<input type="int" name="idade" size="50" placeholder="Idade"><br><br>
 				<input type="text" name="email" size="50" placeholder="Email"><br><br>
 				<input type="text" name="necessidade" size="50" placeholder="Necessidade"><br><br>
-				<input type="submit" name="Cadastrar">			
+				<input type="submit" name="Cadastrar" class="btn btn-outline-secondary">
+				<a href="exibir.php" class="btn btn-outline-secondary">Cadastros</a>
+				<a href="editar.php" class="btn btn-outline-secondary">Editar</a>		
 		</form>
 	</section>
 
@@ -138,7 +144,6 @@
    <footer>
       <p>Desenvolvido por Natali Schers</p>
    </footer>
-
 
    <!-- JavaScript -->
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
