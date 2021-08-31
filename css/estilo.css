@@ -4,6 +4,7 @@ html {
 
 .navbar {
   background-color: lightgray;
+  font-weight: 500;
 }
 
 .navbar-brand {
